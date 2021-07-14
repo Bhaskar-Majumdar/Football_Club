@@ -313,14 +313,14 @@ Responsive css for mobile view
 }
 .highlight-title {     
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
 }
 .news{
     font-weight: normal;
     font-size: 16px;
 }
 .right-highlight-box img {
-    width: 400px;
+    width: 380px;
     height: 248px;
     margin-top: 60px;
 }
