@@ -4,7 +4,11 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #fdfbfb;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
     margin: 0px;
+    overflow-x: hidden;
 }
 
 .banner_box{
@@ -14,7 +18,7 @@ body{
 .left-box{
     width: 485px;
     height: 230px;
-    margin-left: 156px;
+    margin-left: 105px;
     margin-right: 102px;
     margin-bottom: 240px;
 }
@@ -50,14 +54,15 @@ body{
 
 
 main{
-    width: 1110px;
+    width: 1056px;
     height: 100%;
     margin: auto;
+    overflow-x: hidden;
     background-color: #FFFFFF;
      
  }
 
-/* players styles */
+/* players styles part */
 .players{
     margin-top: 70px;
     margin-bottom: 165px;
@@ -67,12 +72,11 @@ main{
     grid-row-gap: 27px; 
     
 }
-
 .player{
-    width: 330px;
-    height: 474px;
+    width: 332px;
+    height: 490px;
     background: #FFFFFF;
-    box-shadow: 10px 5px 40px rgba(206, 6, 6, 0.15);
+    box-shadow: 0px 0px 40px rgba(7, 151, 50, 0.15);
     
 }
 
@@ -107,52 +111,45 @@ main{
     font-size: 16px; 
 }
 
-/* highlights banner styles */
-.highlights-banner{
-    margin-top: -36px;
+/* highlights part styles */
+.highlights{
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;  
 }
 
-.left-highlights-banner{
+.left-highlight-box{
     margin-left: 10px;
-   margin-right: 66px;  
-    
+    margin-right: 66px; 
 }
 
-.highlights-title{
-    font-family: 'Poppins', sans-serif;
-    font-weight: bold;
+.highlight-title{
     font-size: 48px;
     color: #0A0826;
     margin-bottom: 0;
 }
-.highlights-news-text{
-    font-family: 'Poppins', sans-serif;
+.news{
     font-weight: 400;
     color: #6C6C6C;
     margin-top: 8px;
     margin-bottom: 24px;
 }
 
-.right-highlights-banner img{
-    width: 567px;
+.right-highlight-box img{
+    width: 510px;
     height: 427px;
+    margin-left: 0px;
 }
-
 
 
 /* footer styles */
 footer{
     width: 100%;
     text-align: center;
-    margin-top: 158px;
+    margin-top: 100px;
 }
 
 footer img{
-    
     width: 483.87px;
     height: 110px;
 }
@@ -160,23 +157,26 @@ footer img{
 .social-media{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
     margin-bottom: 20px;
 }
 
-.social-icon{
-    
+.social-icon{ 
     margin-right: 14px;
-    
     height: 32px;
     width: 32px;
 }
-
 .copyright-text{
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 63px;
+}
+
+/* sponsor brands style */
+.brands{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 30px;
+    background-color: azure;
+    box-shadow: 0px 0px 15px rgb(155, 190, 179);
 }
